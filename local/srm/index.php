@@ -96,6 +96,6 @@ $renderer = $PAGE->get_renderer('core_user');
 echo $renderer->unified_filter($course, $context, $filtersapplied, $baseurl);
 
 $table = new \local_srm\index_table($courseid, $groupid, $lastaccess, $roleid, $enrolid, $status, $searchkeywords, false, false);
-$table->out(15, 1);
+$table->out(25, 1);
 
 echo $OUTPUT->footer();
